@@ -1,0 +1,7 @@
+vvvgic ex-add "Barbell Bench Press" --muscle-group chest
+gic w-start  # → prints workout id
+gic set-log --workout-id 1 --exercise "Barbell Bench Press" --set-no 1 --reps 8 --weight 50 --rir 2
+gic suggest --exercise "Barbell Bench Press"
+gic intake --kcal 650 --protein-g 40
+gic weigh --weight-kg 69.6
+gic weekly
